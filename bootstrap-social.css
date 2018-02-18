@@ -51,16 +51,6 @@
   font-size: 1.4em;
 }
 
-.btn-social.btn-xs, .btn-xs.btn-social-icon {
-  padding-left: 2.75rem;
-}
-
-.btn-social.btn-xs > :first-child, .btn-xs.btn-social-icon > :first-child {
-  line-height: 2.25rem;
-  width: 2.25rem;
-  font-size: 1.2em;
-}
-
 .btn-social-icon {
   height: 4.25rem;
   width: 4.25rem;
@@ -84,13 +74,6 @@
 .btn-social-icon.btn-sm {
   height: 3.5rem;
   width: 3.5rem;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.btn-social-icon.btn-xs {
-  height: 4.25rem;
-  width: 4.25rem;
   padding-left: 0;
   padding-right: 0;
 }

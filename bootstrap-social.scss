@@ -8,7 +8,6 @@
 $bs-height-base: ($line-height-base + $btn-padding-y * 2) !default;
 $bs-height-lg: (floor($font-size-lg * $line-height-base) + $btn-padding-y-lg * 2) !default;
 $bs-height-sm: (floor($font-size-sm * 1.5) + $btn-padding-y-sm * 2) !default;
-$bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
 .btn-social {
     display: inline-flex;
     justify-content: flex-start;
@@ -44,14 +43,6 @@ $bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
             font-size: 1.4em;
         }
     }
-    &.btn-xs {
-        padding-left: ($bs-height-xs + $btn-padding-x-sm);
-        > :first-child {
-            line-height: $bs-height-xs;
-            width: $bs-height-xs;
-            font-size: 1.2em;
-        }
-    }
 }
 
 .btn-social-icon {
@@ -74,12 +65,6 @@ $bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
     &.btn-sm {
         height: ($bs-height-sm + 2);
         width: ($bs-height-sm + 2);
-        padding-left: 0;
-        padding-right: 0;
-    }
-    &.btn-xs {
-        height: ($bs-height-xs + 2);
-        width: ($bs-height-xs + 2);
         padding-left: 0;
         padding-right: 0;
     }
