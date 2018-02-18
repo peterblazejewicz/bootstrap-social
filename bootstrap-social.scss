@@ -76,10 +76,6 @@ $bs-height-sm: (($font-size-sm * $btn-line-height-sm) + ($btn-padding-y-sm * 2))
     color: $color;
 }
 
-.btn-adn {
-    @include btn-social(#d87a68);
-}
-
 .btn-bitbucket {
     @include btn-social($bc-bitbucket);
 }

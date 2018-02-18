@@ -79,41 +79,6 @@
   margin-right: 0;
 }
 
-.btn-adn {
-  color: #fff;
-  background-color: #d87a68;
-  border-color: #d87a68;
-  color: #ffffff;
-}
-
-.btn-adn:hover {
-  color: #fff;
-  background-color: #d05f4a;
-  border-color: #ce563f;
-}
-
-.btn-adn:focus, .btn-adn.focus {
-  box-shadow: 0 0 0 0.2rem rgba(216, 122, 104, 0.5);
-}
-
-.btn-adn.disabled, .btn-adn:disabled {
-  color: #fff;
-  background-color: #d87a68;
-  border-color: #d87a68;
-}
-
-.btn-adn:not(:disabled):not(.disabled):active, .btn-adn:not(:disabled):not(.disabled).active,
-.show > .btn-adn.dropdown-toggle {
-  color: #fff;
-  background-color: #ce563f;
-  border-color: #cb4d35;
-}
-
-.btn-adn:not(:disabled):not(.disabled):active:focus, .btn-adn:not(:disabled):not(.disabled).active:focus,
-.show > .btn-adn.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(216, 122, 104, 0.5);
-}
-
 .btn-bitbucket {
   color: #fff;
   background-color: #205081;
