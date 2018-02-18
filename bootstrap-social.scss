@@ -9,22 +9,22 @@ $bs-height-lg: (floor($font-size-lg * $line-height-base) + $btn-padding-y-lg * 2
 $bs-height-sm: (floor($font-size-sm * 1.5) + $btn-padding-y-sm * 2) !default;
 $bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
 .btn-social {
-    position: relative;
-    padding-left: ($bs-height-base + $btn-padding-x);
-    text-align: left;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     > :first-child {
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
+        flex: 0 0 auto;
+        padding-right: $btn-padding-x;
         width: $bs-height-base;
         line-height: ($bs-height-base + 2);
         font-size: 1.6em;
         text-align: center;
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    &.btn-block {
+        display: flex;
     }
     &.btn-lg {
         padding-left: ($bs-height-lg + $btn-padding-x-lg);
@@ -58,7 +58,8 @@ $bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
     width: ($bs-height-base + 2);
     padding: 0;
     > :first-child {
-        border: none;
+        margin: 0;
+        padding: 0;
         text-align: center;
         width: 100%!important;
     }
@@ -82,9 +83,9 @@ $bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
     }
 }
 
-@mixin btn-social($color-bg, $color: #fff) {
-    background-color: $color-bg;
-    @include button-variant($color, $color-bg, rgba(0, 0, 0, .2));
+@mixin btn-social($color-bg, $color: #ffffff) {
+    @include button-variant($color-bg, $color-bg);
+    color: $color;
 }
 
 .btn-adn {
