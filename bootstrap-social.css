@@ -535,38 +535,38 @@
 }
 
 .btn-reddit {
-  color: #fff;
-  background-color: #ff4500;
-  border-color: #ff4500;
+  color: #212529;
+  background-color: #cee3f8;
+  border-color: #cee3f8;
   color: #000;
 }
 
 .btn-reddit:hover {
-  color: #fff;
-  background-color: #d93b00;
-  border-color: #cc3700;
+  color: #212529;
+  background-color: #add0f3;
+  border-color: #a1caf2;
 }
 
 .btn-reddit:focus, .btn-reddit.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(206, 227, 248, 0.5);
 }
 
 .btn-reddit.disabled, .btn-reddit:disabled {
-  color: #fff;
-  background-color: #ff4500;
-  border-color: #ff4500;
+  color: #212529;
+  background-color: #cee3f8;
+  border-color: #cee3f8;
 }
 
 .btn-reddit:not(:disabled):not(.disabled):active, .btn-reddit:not(:disabled):not(.disabled).active,
 .show > .btn-reddit.dropdown-toggle {
-  color: #fff;
-  background-color: #cc3700;
-  border-color: #bf3400;
+  color: #212529;
+  background-color: #a1caf2;
+  border-color: #96c3f0;
 }
 
 .btn-reddit:not(:disabled):not(.disabled):active:focus, .btn-reddit:not(:disabled):not(.disabled).active:focus,
 .show > .btn-reddit.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(206, 227, 248, 0.5);
 }
 
 .btn-soundcloud {

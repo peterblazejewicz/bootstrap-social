@@ -129,7 +129,7 @@ $bs-height-sm: (($font-size-sm * $btn-line-height-sm) + ($btn-padding-y-sm * 2))
 }
 
 .btn-reddit {
-    @include btn-social($bc-reddit, #000);
+    @include btn-social($bc-reddit-3, #000);
 }
 
 .btn-soundcloud {
