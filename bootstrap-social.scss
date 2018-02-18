@@ -5,21 +5,20 @@
 @import "~bootstrap/scss/mixins/gradients";
 @import "~bootstrap/scss/mixins/text-truncate";
 @import "~bootstrap/scss/variables";
-$bs-height-base: ($line-height-base + $btn-padding-y * 2) !default;
-$bs-height-lg: (floor($font-size-lg * $line-height-base) + $btn-padding-y-lg * 2) !default;
-$bs-height-sm: (floor($font-size-sm * 1.5) + $btn-padding-y-sm * 2) !default;
+// compute sizes for default/lg/sm
+$bs-height-base: (($font-size-base * $btn-line-height) + ($btn-padding-y * 2)) !default;
+$bs-height-lg: (($font-size-lg * $btn-line-height-lg) + ($btn-padding-y-lg * 2)) !default;
+$bs-height-sm: (($font-size-sm * $btn-line-height-sm) + ($btn-padding-y-sm * 2)) !default;
+//
 .btn-social {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
     @include text-truncate();
     > :first-child {
-        flex: 0 0 auto;
-        padding-right: $btn-padding-x;
-        width: $bs-height-base;
-        line-height: ($bs-height-base + 2);
-        font-size: 1.6em;
-        text-align: center;
+        flex: 0 0 1em;
+        padding: 0;
+        margin-right: $btn-padding-x;
     }
     > :last-child {
         @include text-truncate();
@@ -28,45 +27,45 @@ $bs-height-sm: (floor($font-size-sm * 1.5) + $btn-padding-y-sm * 2) !default;
         display: flex;
     }
     &.btn-lg {
-        padding-left: ($bs-height-lg + $btn-padding-x-lg);
         > :first-child {
-            line-height: $bs-height-lg;
-            width: $bs-height-lg;
-            font-size: 1.8em;
+            margin-right: $btn-padding-x-lg;
         }
     }
     &.btn-sm {
-        padding-left: ($bs-height-sm + $btn-padding-x-sm);
         > :first-child {
-            line-height: $bs-height-sm;
-            width: $bs-height-sm;
-            font-size: 1.4em;
+            margin-right: $btn-padding-x-sm;
         }
     }
 }
 
 .btn-social-icon {
     @extend .btn-social;
-    height: ($bs-height-base + 2);
-    width: ($bs-height-base + 2);
+    width: $bs-height-base;
+    height: $bs-height-base;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
     > :first-child {
         margin: 0;
         padding: 0;
-        text-align: center;
-        width: 100%!important;
+        padding-right: 0;
+        margin-right: 0;
     }
     &.btn-lg {
-        height: $bs-height-lg;
         width: $bs-height-lg;
-        padding-left: 0;
-        padding-right: 0;
+        height: $bs-height-lg;
+        > :first-child {
+            margin-right: 0;
+        }
+        margin-right: 0;
     }
     &.btn-sm {
-        height: ($bs-height-sm + 2);
-        width: ($bs-height-sm + 2);
-        padding-left: 0;
-        padding-right: 0;
+        width: $bs-height-sm;
+        height: $bs-height-sm;
+        > :first-child {
+            margin-right: 0;
+        }
     }
 }
 
