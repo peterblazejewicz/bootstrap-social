@@ -6,16 +6,22 @@
   "author": "Peter Blazejewicz",
   "license": "MIT",
   "scripts": {
+    "build:css": "npm-run-all css:lint css:compile css:prefix css:minify",
+    "build:site": "npm-run-all site:lint site:compile site:prefix site:minify",
+    "build": "npm-run-all build:site build:css",
     "clean:bs": "rimraf assets/css/bootstrap/",
     "clean": "npm-run-all clean:*",
     "css:compile": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js --output-style expanded --source-map true --source-map-contents true --precision 6 bootstrap-social.scss bootstrap-social.css",
     "css:lint": "sass-lint --config .scss-lint.yml *.scss",
     "css:minify": "cleancss --level 1 --source-map --source-map-inline-sources --output bootstrap-social.min.css bootstrap-social.css",
     "css:prefix": "postcss \"bootstrap-social.css\" --config postcss.config.js --replace \"boostrap-social.css\" \"!bootstrap-social.min.css\"",
-    "css": "npm-run-all css:lint css:compile css:prefix css:minify",
     "postinstall": "vendor-copy",
     "preinstall": "npm-run-all clean:*",
-    "serve": "serve ."
+    "serve": "serve .",
+    "site:compile": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js --output-style expanded --source-map true --source-map-contents true --precision 6 assets/css/docs/site.scss assets/css/docs/site.css",
+    "site:lint": "sass-lint --config .scss-lint.yml assets/css/docs/*.scss",
+    "site:minify": "cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/docs/site.min.css assets/css/docs/site.css",
+    "site:prefix": "postcss \"assets/css/docs/site.css\" --config postcss.config.js --replace \"assets/css/docs/site.css\" \"!assets/css/docs/site.min.css\""
   },
   "vendorCopy": [
     {
