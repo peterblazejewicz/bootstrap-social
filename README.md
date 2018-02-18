@@ -7,7 +7,6 @@ Social Sign-In Buttons for Bootstrap 4 and FontAwesome 5. Derived from effective
 The following will install dependencies, copy static assets to output project for the website and start a local development server:
 
 ```bash
-
 yarn
 
 yarn build
