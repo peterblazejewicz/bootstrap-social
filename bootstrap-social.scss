@@ -5,6 +5,8 @@
 @import "~bootstrap/scss/mixins/gradients";
 @import "~bootstrap/scss/mixins/text-truncate";
 @import "~bootstrap/scss/variables";
+// hey, brand-colors
+@import "~brand-colors/dist/latest/scss/brand-colors.latest";
 // compute sizes for default/lg/sm
 $bs-height-base: (($font-size-base * $btn-line-height) + ($btn-padding-y * 2)) !default;
 $bs-height-lg: (($font-size-lg * $btn-line-height-lg) + ($btn-padding-y-lg * 2)) !default;
@@ -79,23 +81,23 @@ $bs-height-sm: (($font-size-sm * $btn-line-height-sm) + ($btn-padding-y-sm * 2))
 }
 
 .btn-bitbucket {
-    @include btn-social(#205081);
+    @include btn-social($bc-bitbucket);
 }
 
 .btn-dropbox {
-    @include btn-social(#1087dd);
+    @include btn-social($bc-dropbox);
 }
 
 .btn-facebook {
-    @include btn-social(#3b5998);
+    @include btn-social($bc-facebook);
 }
 
 .btn-flickr {
-    @include btn-social(#ff0084);
+    @include btn-social($bc-flickr);
 }
 
 .btn-foursquare {
-    @include btn-social(#f94877);
+    @include btn-social($bc-foursquare);
 }
 
 .btn-github {
@@ -103,23 +105,23 @@ $bs-height-sm: (($font-size-sm * $btn-line-height-sm) + ($btn-padding-y-sm * 2))
 }
 
 .btn-google {
-    @include btn-social(#dd4b39);
+    @include btn-social($bc-github);
 }
 
 .btn-instagram {
-    @include btn-social(#3f729b);
+    @include btn-social($bc-instagram);
 }
 
 .btn-linkedin {
-    @include btn-social(#007bb6);
+    @include btn-social($bc-linkedin);
 }
 
 .btn-microsoft {
-    @include btn-social(#2672ec);
+    @include btn-social($bc-microsoft);
 }
 
 .btn-odnoklassniki {
-    @include btn-social(#f4731c);
+    @include btn-social($bc-odnoklassniki);
 }
 
 .btn-openid {
@@ -127,33 +129,33 @@ $bs-height-sm: (($font-size-sm * $btn-line-height-sm) + ($btn-padding-y-sm * 2))
 }
 
 .btn-pinterest {
-    @include btn-social(#cb2027);
+    @include btn-social($bc-pinterest);
 }
 
 .btn-reddit {
-    @include btn-social(#eff7ff, #000);
+    @include btn-social($bc-reddit, #000);
 }
 
 .btn-soundcloud {
-    @include btn-social(#ff5500);
+    @include btn-social($bc-soundcloud);
 }
 
 .btn-tumblr {
-    @include btn-social(#2c4762);
+    @include btn-social($bc-tumblr);
 }
 
 .btn-twitter {
-    @include btn-social(#55acee);
+    @include btn-social($bc-twitter);
 }
 
 .btn-vimeo {
-    @include btn-social(#1ab7ea);
+    @include btn-social($bc-vimeo);
 }
 
 .btn-vk {
-    @include btn-social(#587ea3);
+    @include btn-social($bc-vkontakte);
 }
 
 .btn-yahoo {
-    @include btn-social(#720e9e);
+    @include btn-social($bc-yahoo);
 }
