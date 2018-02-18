@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-social",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/peterblazejewicz/bootstrap-social.git",
+  "author": "Peter Blazejewicz",
+  "license": "MIT",
+  "scripts": {
+    "serve": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^6.4.10"
+  }
+}
