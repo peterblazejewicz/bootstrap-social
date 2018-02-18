@@ -1,3 +1,9 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins/box-shadow";
+@import "~bootstrap/scss/mixins/buttons";
+@import "~bootstrap/scss/mixins/hover";
+@import "~bootstrap/scss/mixins/gradients";
+@import "~bootstrap/scss/variables";
 body {
     font-weight: 300;
     -webkit-font-smoothing: antialiased
@@ -13,84 +19,52 @@ h2 {
 }
 
 .jumbotron {
-    position: relative;
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
     color: #fff;
     color: rgba(255, 255, 255, 0.75);
     text-align: center;
     border-radius: 0;
-    padding-bottom: 80px;
-    background-image: -webkit-linear-gradient(left, #720e9e 0, #dd4b39 100%);
-    background-image: -o-linear-gradient(left, #720e9e 0, #dd4b39 100%);
-    background-image: linear-gradient(to right, #720e9e 0, #dd4b39 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff720e9e', endColorstr='#ffdd4b39', GradientType=1)
-}
-
-.jumbotron h1 {
-    margin-bottom: 15px;
-    font-weight: 300;
-    letter-spacing: -1px;
-    color: #fff
-}
-
-.jumbotron iframe {
-    width: 100px !important;
-    height: 20px !important;
-    border: none;
-    overflow: hidden;
-    margin: 2px
+    background-image: linear-gradient(138deg, #320F5F 0%, #8A50DA 100%);
+    & .container {
+        padding: {
+            top: 2rem;
+            bottom: 2rem;
+        }
+        h1 {
+            margin-bottom: 15px;
+            font-weight: 300;
+            letter-spacing: -1px;
+            color: #fff
+        }
+    }
+    .jumbotron-links {
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+        font-size: 14px
+    }
+    .jumbotron-links li {
+        display: inline
+    }
+    .jumbotron-links li+li {
+        margin-left: 20px
+    }
+    .bottom {
+        padding: 1.25rem;
+        background-color: rgba(0, 0, 0, 0.2)
+    }
+    .btn-outline-primary {
+        @include button-outline-variant(#fff, #fff, theme-color("primary"), theme-color("primary"));
+    }
 }
 
 .jumbotron p a,
 .jumbotron .jumbotron-links a {
     font-weight: 500;
     color: #fff
-}
-
-.jumbotron .jumbotron-links {
-    margin-top: 15px;
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none;
-    font-size: 14px
-}
-
-.jumbotron .jumbotron-links li {
-    display: inline
-}
-
-.jumbotron .jumbotron-links li+li {
-    margin-left: 20px
-}
-
-.jumbotron .bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 18px;
-    background-color: rgba(0, 0, 0, 0.2)
-}
-
-.btn-outline {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 18px 24px;
-    font-size: inherit;
-    font-weight: 500;
-    color: #fff;
-    background-color: transparent;
-    border-color: #fff;
-    border-color: rgba(255, 255, 255, 0.5);
-    transition: all .1s ease-in-out
-}
-
-.btn-outline:hover,
-.btn-outline:active {
-    color: #720e9e;
-    background-color: #fff;
-    border-color: #fff
 }
 
 .how-to {
@@ -119,14 +93,9 @@ h2 {
 }
 
 footer {
+    padding: 1rem;
     text-align: center;
-    opacity: .8;
-    padding: 50px;
-    background-image: -webkit-linear-gradient(left, #dd4b39 0, #720e9e 100%);
-    background-image: -o-linear-gradient(left, #dd4b39 0, #720e9e 100%);
-    background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd4b39', endColorstr='#ff720e9e', GradientType=1)
+    background-image: linear-gradient(138deg, #320F5F 0%, #8A50DA 100%);
 }
 
 footer a {
@@ -148,11 +117,14 @@ footer a:hover {
     padding: 0 10px
 }
 
+.social-class code,
 .social-class .social-hex {
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-    font-size: 10px;
-    opacity: .3;
-    float: right
+  font-size: $font-size-sm;
+}
+.social-class .social-hex {
+    font-family: $font-family-monospace;
+    float: right;
+    color: $text-muted !important;
 }
 
 .social-class li {
@@ -169,4 +141,32 @@ footer a:hover {
 
 .social-class code {
     cursor: default
+}
+
+.github-corner svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    mix-blend-mode: darken;
+    color: #ffffff;
+    fill: #000000;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave .56s;
+}
+
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+    20%,
+    60% {
+        transform: rotate(-20deg);
+    }
+    40%,
+    80% {
+        transform: rotate(10deg);
+    }
 }

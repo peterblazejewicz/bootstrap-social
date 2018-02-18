@@ -1,14 +1,18 @@
 .btn-social, .btn-social-icon {
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  white-space: nowrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .btn-social > :first-child, .btn-social-icon > :first-child {
-  flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
   padding-right: 0.75rem;
   width: 2.25rem;
   line-height: 4.25rem;
@@ -16,7 +20,14 @@
   text-align: center;
 }
 
+.btn-social > :last-child, .btn-social-icon > :last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .btn-social.btn-block, .btn-block.btn-social-icon {
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -818,5 +829,4 @@
 .show > .btn-yahoo.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(114, 14, 158, 0.5);
 }
-
 /*# sourceMappingURL=bootstrap-social.css.map */
