@@ -256,72 +256,72 @@
 
 .btn-github {
   color: #fff;
-  background-color: #444444;
-  border-color: #444444;
+  background-color: #333;
+  border-color: #333;
   color: #ffffff;
 }
 
 .btn-github:hover {
   color: #fff;
-  background-color: #313131;
-  border-color: #2b2b2b;
+  background-color: #202020;
+  border-color: #1a1a1a;
 }
 
 .btn-github:focus, .btn-github.focus {
-  box-shadow: 0 0 0 0.2rem rgba(68, 68, 68, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.5);
 }
 
 .btn-github.disabled, .btn-github:disabled {
   color: #fff;
-  background-color: #444444;
-  border-color: #444444;
+  background-color: #333;
+  border-color: #333;
 }
 
 .btn-github:not(:disabled):not(.disabled):active, .btn-github:not(:disabled):not(.disabled).active,
 .show > .btn-github.dropdown-toggle {
   color: #fff;
-  background-color: #2b2b2b;
-  border-color: #242424;
+  background-color: #1a1a1a;
+  border-color: #131313;
 }
 
 .btn-github:not(:disabled):not(.disabled):active:focus, .btn-github:not(:disabled):not(.disabled).active:focus,
 .show > .btn-github.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(68, 68, 68, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.5);
 }
 
 .btn-google {
   color: #fff;
-  background-color: #4078c0;
-  border-color: #4078c0;
+  background-color: #4285f4;
+  border-color: #4285f4;
   color: #ffffff;
 }
 
 .btn-google:hover {
   color: #fff;
-  background-color: #3666a4;
-  border-color: #33609a;
+  background-color: #1e6ef2;
+  border-color: #1266f1;
 }
 
 .btn-google:focus, .btn-google.focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 120, 192, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.5);
 }
 
 .btn-google.disabled, .btn-google:disabled {
   color: #fff;
-  background-color: #4078c0;
-  border-color: #4078c0;
+  background-color: #4285f4;
+  border-color: #4285f4;
 }
 
 .btn-google:not(:disabled):not(.disabled):active, .btn-google:not(:disabled):not(.disabled).active,
 .show > .btn-google.dropdown-toggle {
   color: #fff;
-  background-color: #33609a;
-  border-color: #305a91;
+  background-color: #1266f1;
+  border-color: #0e60e9;
 }
 
 .btn-google:not(:disabled):not(.disabled):active:focus, .btn-google:not(:disabled):not(.disabled).active:focus,
 .show > .btn-google.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 120, 192, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.5);
 }
 
 .btn-instagram {

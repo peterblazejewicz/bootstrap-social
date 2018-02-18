@@ -97,11 +97,11 @@ $bs-height-sm: (($font-size-sm * $btn-line-height-sm) + ($btn-padding-y-sm * 2))
 }
 
 .btn-github {
-    @include btn-social(#444444);
+    @include btn-social($bc-github-8);
 }
 
 .btn-google {
-    @include btn-social($bc-github);
+    @include btn-social($bc-google);
 }
 
 .btn-instagram {
