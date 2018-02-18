@@ -9,7 +9,8 @@ h2 {
 }
 
 .btn-social-icon {
-  margin-bottom: 4px;
+  margin-right: .25rem;
+  margin-bottom: .25rem;
 }
 
 .jumbotron {
@@ -59,37 +60,39 @@ h2 {
 }
 
 .jumbotron .btn-outline-primary {
-  color: #fff;
+  margin-bottom: .25rem;
+  min-width: 20ch;
+  color: #f8f9fa;
   background-color: transparent;
   background-image: none;
-  border-color: #fff;
+  border-color: #f8f9fa;
 }
 
 .jumbotron .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
 .jumbotron .btn-outline-primary:focus, .jumbotron .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 
 .jumbotron .btn-outline-primary.disabled, .jumbotron .btn-outline-primary:disabled {
-  color: #fff;
+  color: #f8f9fa;
   background-color: transparent;
 }
 
 .jumbotron .btn-outline-primary:not(:disabled):not(.disabled):active, .jumbotron .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .jumbotron .btn-outline-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
 .jumbotron .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .jumbotron .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .jumbotron .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 
 .jumbotron p a,
@@ -179,9 +182,9 @@ footer a:hover {
   position: absolute;
   right: 0;
   top: 0;
-  mix-blend-mode: darken;
-  color: #ffffff;
-  fill: #000000;
+  mix-blend-mode: color-dodge;
+  color: #000;
+  fill: #fff;
 }
 
 .github-corner:hover .octo-arm {

@@ -11,11 +11,12 @@ body {
 
 h2 {
     text-align: center;
-    font-weight: 300
+    font-weight: 300;
 }
 
 .btn-social-icon {
-    margin-bottom: 4px
+    margin-right: .25rem;
+    margin-bottom: .25rem;
 }
 
 .jumbotron {
@@ -57,7 +58,9 @@ h2 {
         background-color: rgba(0, 0, 0, 0.2)
     }
     .btn-outline-primary {
-        @include button-outline-variant(#fff, #fff, theme-color("primary"), theme-color("primary"));
+        margin-bottom: .25rem;
+        min-width: 20ch;
+        @include button-outline-variant(theme-color("light"));
     }
 }
 
@@ -119,8 +122,9 @@ footer a:hover {
 
 .social-class code,
 .social-class .social-hex {
-  font-size: $font-size-sm;
+    font-size: $font-size-sm;
 }
+
 .social-class .social-hex {
     font-family: $font-family-monospace;
     float: right;
@@ -147,9 +151,9 @@ footer a:hover {
     position: absolute;
     right: 0;
     top: 0;
-    mix-blend-mode: darken;
-    color: #ffffff;
-    fill: #000000;
+    mix-blend-mode: color-dodge;
+    color: #000;
+    fill: #fff;
 }
 
 .github-corner:hover .octo-arm {
