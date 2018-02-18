@@ -3,6 +3,7 @@
 @import "~bootstrap/scss/mixins/buttons";
 @import "~bootstrap/scss/mixins/hover";
 @import "~bootstrap/scss/mixins/gradients";
+@import "~bootstrap/scss/mixins/text-truncate";
 @import "~bootstrap/scss/variables";
 $bs-height-base: ($line-height-base + $btn-padding-y * 2) !default;
 $bs-height-lg: (floor($font-size-lg * $line-height-base) + $btn-padding-y-lg * 2) !default;
@@ -12,9 +13,7 @@ $bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    @include text-truncate();
     > :first-child {
         flex: 0 0 auto;
         padding-right: $btn-padding-x;
@@ -22,6 +21,9 @@ $bs-height-xs: (floor($font-size-sm * 1.2) + $btn-padding-y-sm + 1) !default;
         line-height: ($bs-height-base + 2);
         font-size: 1.6em;
         text-align: center;
+    }
+    > :last-child {
+        @include text-truncate();
     }
     &.btn-block {
         display: flex;
