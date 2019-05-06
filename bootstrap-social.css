@@ -93,7 +93,7 @@
 }
 
 .btn-bitbucket:focus, .btn-bitbucket.focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 80, 129, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(65, 106, 148, 0.5);
 }
 
 .btn-bitbucket.disabled, .btn-bitbucket:disabled {
@@ -111,7 +111,7 @@
 
 .btn-bitbucket:not(:disabled):not(.disabled):active:focus, .btn-bitbucket:not(:disabled):not(.disabled).active:focus,
 .show > .btn-bitbucket.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 80, 129, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(65, 106, 148, 0.5);
 }
 
 .btn-dropbox {
@@ -128,7 +128,7 @@
 }
 
 .btn-dropbox:focus, .btn-dropbox.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 126, 229, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 145, 233, 0.5);
 }
 
 .btn-dropbox.disabled, .btn-dropbox:disabled {
@@ -146,7 +146,7 @@
 
 .btn-dropbox:not(:disabled):not(.disabled):active:focus, .btn-dropbox:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dropbox.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 126, 229, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 145, 233, 0.5);
 }
 
 .btn-facebook {
@@ -163,7 +163,7 @@
 }
 
 .btn-facebook:focus, .btn-facebook.focus {
-  box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(88, 114, 167, 0.5);
 }
 
 .btn-facebook.disabled, .btn-facebook:disabled {
@@ -181,7 +181,7 @@
 
 .btn-facebook:not(:disabled):not(.disabled):active:focus, .btn-facebook:not(:disabled):not(.disabled).active:focus,
 .show > .btn-facebook.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(88, 114, 167, 0.5);
 }
 
 .btn-flickr {
@@ -198,7 +198,7 @@
 }
 
 .btn-flickr:focus, .btn-flickr.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 220, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 122, 225, 0.5);
 }
 
 .btn-flickr.disabled, .btn-flickr:disabled {
@@ -216,7 +216,7 @@
 
 .btn-flickr:not(:disabled):not(.disabled):active:focus, .btn-flickr:not(:disabled):not(.disabled).active:focus,
 .show > .btn-flickr.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 220, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 122, 225, 0.5);
 }
 
 .btn-foursquare {
@@ -233,7 +233,7 @@
 }
 
 .btn-foursquare:focus, .btn-foursquare.focus {
-  box-shadow: 0 0 0 0.2rem rgba(249, 72, 119, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(250, 99, 139, 0.5);
 }
 
 .btn-foursquare.disabled, .btn-foursquare:disabled {
@@ -251,7 +251,7 @@
 
 .btn-foursquare:not(:disabled):not(.disabled):active:focus, .btn-foursquare:not(:disabled):not(.disabled).active:focus,
 .show > .btn-foursquare.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(249, 72, 119, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(250, 99, 139, 0.5);
 }
 
 .btn-github {
@@ -268,7 +268,7 @@
 }
 
 .btn-github:focus, .btn-github.focus {
-  box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(82, 82, 82, 0.5);
 }
 
 .btn-github.disabled, .btn-github:disabled {
@@ -286,7 +286,7 @@
 
 .btn-github:not(:disabled):not(.disabled):active:focus, .btn-github:not(:disabled):not(.disabled).active:focus,
 .show > .btn-github.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(82, 82, 82, 0.5);
 }
 
 .btn-google {
@@ -303,7 +303,7 @@
 }
 
 .btn-google:focus, .btn-google.focus {
-  box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(94, 151, 246, 0.5);
 }
 
 .btn-google.disabled, .btn-google:disabled {
@@ -321,7 +321,7 @@
 
 .btn-google:not(:disabled):not(.disabled):active:focus, .btn-google:not(:disabled):not(.disabled).active:focus,
 .show > .btn-google.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(94, 151, 246, 0.5);
 }
 
 .btn-instagram {
@@ -338,7 +338,7 @@
 }
 
 .btn-instagram:focus, .btn-instagram.focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 93, 230, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(93, 117, 234, 0.5);
 }
 
 .btn-instagram.disabled, .btn-instagram:disabled {
@@ -356,7 +356,7 @@
 
 .btn-instagram:not(:disabled):not(.disabled):active:focus, .btn-instagram:not(:disabled):not(.disabled).active:focus,
 .show > .btn-instagram.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 93, 230, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(93, 117, 234, 0.5);
 }
 
 .btn-linkedin {
@@ -373,7 +373,7 @@
 }
 
 .btn-linkedin:focus, .btn-linkedin.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 119, 181, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 139, 192, 0.5);
 }
 
 .btn-linkedin.disabled, .btn-linkedin:disabled {
@@ -391,7 +391,7 @@
 
 .btn-linkedin:not(:disabled):not(.disabled):active:focus, .btn-linkedin:not(:disabled):not(.disabled).active:focus,
 .show > .btn-linkedin.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 119, 181, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 139, 192, 0.5);
 }
 
 .btn-microsoft {
@@ -408,7 +408,7 @@
 }
 
 .btn-microsoft:focus, .btn-microsoft.focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 83, 20, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(247, 109, 55, 0.5);
 }
 
 .btn-microsoft.disabled, .btn-microsoft:disabled {
@@ -426,7 +426,7 @@
 
 .btn-microsoft:not(:disabled):not(.disabled):active:focus, .btn-microsoft:not(:disabled):not(.disabled).active:focus,
 .show > .btn-microsoft.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 83, 20, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(247, 109, 55, 0.5);
 }
 
 .btn-odnoklassniki {
@@ -443,7 +443,7 @@
 }
 
 .btn-odnoklassniki:focus, .btn-odnoklassniki.focus {
-  box-shadow: 0 0 0 0.2rem rgba(237, 129, 43, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(206, 115, 43, 0.5);
 }
 
 .btn-odnoklassniki.disabled, .btn-odnoklassniki:disabled {
@@ -461,7 +461,7 @@
 
 .btn-odnoklassniki:not(:disabled):not(.disabled):active:focus, .btn-odnoklassniki:not(:disabled):not(.disabled).active:focus,
 .show > .btn-odnoklassniki.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(237, 129, 43, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(206, 115, 43, 0.5);
 }
 
 .btn-openid {
@@ -478,7 +478,7 @@
 }
 
 .btn-openid:focus, .btn-openid.focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 147, 30, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(215, 131, 32, 0.5);
 }
 
 .btn-openid.disabled, .btn-openid:disabled {
@@ -496,7 +496,7 @@
 
 .btn-openid:not(:disabled):not(.disabled):active:focus, .btn-openid:not(:disabled):not(.disabled).active:focus,
 .show > .btn-openid.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 147, 30, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(215, 131, 32, 0.5);
 }
 
 .btn-pinterest {
@@ -513,7 +513,7 @@
 }
 
 .btn-pinterest:focus, .btn-pinterest.focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 8, 28, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(199, 45, 62, 0.5);
 }
 
 .btn-pinterest.disabled, .btn-pinterest:disabled {
@@ -531,7 +531,7 @@
 
 .btn-pinterest:not(:disabled):not(.disabled):active:focus, .btn-pinterest:not(:disabled):not(.disabled).active:focus,
 .show > .btn-pinterest.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 8, 28, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(199, 45, 62, 0.5);
 }
 
 .btn-reddit {
@@ -548,7 +548,7 @@
 }
 
 .btn-reddit:focus, .btn-reddit.focus {
-  box-shadow: 0 0 0 0.2rem rgba(206, 227, 248, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(180, 199, 217, 0.5);
 }
 
 .btn-reddit.disabled, .btn-reddit:disabled {
@@ -566,7 +566,7 @@
 
 .btn-reddit:not(:disabled):not(.disabled):active:focus, .btn-reddit:not(:disabled):not(.disabled).active:focus,
 .show > .btn-reddit.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(206, 227, 248, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(180, 199, 217, 0.5);
 }
 
 .btn-soundcloud {
@@ -583,7 +583,7 @@
 }
 
 .btn-soundcloud:focus, .btn-soundcloud.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 136, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(222, 121, 6, 0.5);
 }
 
 .btn-soundcloud.disabled, .btn-soundcloud:disabled {
@@ -601,7 +601,7 @@
 
 .btn-soundcloud:not(:disabled):not(.disabled):active:focus, .btn-soundcloud:not(:disabled):not(.disabled).active:focus,
 .show > .btn-soundcloud.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 136, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(222, 121, 6, 0.5);
 }
 
 .btn-tumblr {
@@ -618,7 +618,7 @@
 }
 
 .btn-tumblr:focus, .btn-tumblr.focus {
-  box-shadow: 0 0 0 0.2rem rgba(53, 70, 92, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(83, 98, 116, 0.5);
 }
 
 .btn-tumblr.disabled, .btn-tumblr:disabled {
@@ -636,7 +636,7 @@
 
 .btn-tumblr:not(:disabled):not(.disabled):active:focus, .btn-tumblr:not(:disabled):not(.disabled).active:focus,
 .show > .btn-tumblr.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(53, 70, 92, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(83, 98, 116, 0.5);
 }
 
 .btn-twitter {
@@ -653,7 +653,7 @@
 }
 
 .btn-twitter:focus, .btn-twitter.focus {
-  box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(63, 175, 244, 0.5);
 }
 
 .btn-twitter.disabled, .btn-twitter:disabled {
@@ -671,7 +671,7 @@
 
 .btn-twitter:not(:disabled):not(.disabled):active:focus, .btn-twitter:not(:disabled):not(.disabled).active:focus,
 .show > .btn-twitter.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(63, 175, 244, 0.5);
 }
 
 .btn-vimeo {
@@ -688,7 +688,7 @@
 }
 
 .btn-vimeo:focus, .btn-vimeo.focus {
-  box-shadow: 0 0 0 0.2rem rgba(22, 34, 33, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(57, 67, 66, 0.5);
 }
 
 .btn-vimeo.disabled, .btn-vimeo:disabled {
@@ -706,7 +706,7 @@
 
 .btn-vimeo:not(:disabled):not(.disabled):active:focus, .btn-vimeo:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vimeo.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(22, 34, 33, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(57, 67, 66, 0.5);
 }
 
 .btn-vk {
@@ -723,7 +723,7 @@
 }
 
 .btn-vk:focus, .btn-vk.focus {
-  box-shadow: 0 0 0 0.2rem rgba(69, 102, 142, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(97, 125, 159, 0.5);
 }
 
 .btn-vk.disabled, .btn-vk:disabled {
@@ -741,7 +741,7 @@
 
 .btn-vk:not(:disabled):not(.disabled):active:focus, .btn-vk:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vk.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(69, 102, 142, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(97, 125, 159, 0.5);
 }
 
 .btn-yahoo {
@@ -758,7 +758,7 @@
 }
 
 .btn-yahoo:focus, .btn-yahoo.focus {
-  box-shadow: 0 0 0 0.2rem rgba(65, 0, 147, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(94, 38, 163, 0.5);
 }
 
 .btn-yahoo.disabled, .btn-yahoo:disabled {
@@ -776,6 +776,6 @@
 
 .btn-yahoo:not(:disabled):not(.disabled):active:focus, .btn-yahoo:not(:disabled):not(.disabled).active:focus,
 .show > .btn-yahoo.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(65, 0, 147, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(94, 38, 163, 0.5);
 }
 /*# sourceMappingURL=bootstrap-social.css.map */
